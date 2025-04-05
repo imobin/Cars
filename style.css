@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.the_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+}
+
+.cars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* margin-top: 50px; */
+  }
+
+.sedans{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80vw;
+    height: 100vw;
+    background-color: #EB8838;
+    padding: 50px;
+    .sedansbot{
+        align-self: flex-start;
+    }
+
+}
+
+.sedansbot{
+    border-radius: 60px;
+    color: #EB8838;
+    background-color: white;
+    border-width: 0;
+    width: 30%;
+    height: 5%;
+}
+
+.suv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80vw;
+    height: 100vw;
+    background-color: #00696F;
+    padding: 50px;
+    .suvbot{
+        align-self: flex-start;
+    }
+
+}
+.suvbot{
+    border-radius: 60px;
+    color: #00696F;
+    background-color: white;
+    border-width: 0;
+    width: 30%;
+    height: 5%;
+
+}
+
+
+
+.luxury{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80vw;
+    height: 100vw;
+    background-color: #004241;
+    padding: 50px;
+    .luxurybot{
+        align-self: flex-start;
+    }
+}
+
+.luxurybot{
+    border-radius: 60px;
+    color:  #004241;
+    background-color: white;
+    border-width: 0;
+    width: 30%;
+    height: 5%;
+}
+
+
+
+
+.logo{
+    width: 20%;
+    height: 10%;
+
+}
+
+
+.paragraph{
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.head1{
+    color: white;
+    /* font-family: "Lexend Deca", sans-serif; */
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}   
+
+
+@media only screen and (min-width: 992px){
+    .cars {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 90%;
+        margin-top: 50px;
+      }
+.sedans{
+    width: 30vw;
+    height: 45vw;
+}
+
+.suv{
+    width: 30vw;
+    height: 45vw;
+}
+
+.luxury{
+    width: 30vw;
+    height: 45vw;
+}
+      
+
+
+}

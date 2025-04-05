@@ -24,8 +24,8 @@ The goal of this assignment was to build a **responsive web page showcasing diff
 
 Here’s a preview of the car models design:
 
-![Car Models Preview - Desktop](./images/car-model-1.png)
-![Car Models Preview - Mobile](./images/car-model-2.png)
+![Car Models Preview - Desktop](./img/Desktop_view.png)
+![Car Models Preview - Mobile](./img/Mobile_view.png)
 
 
 ## 📌 Notes

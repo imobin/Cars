@@ -1,6 +1,7 @@
 # Car Models Responsive Web Page
 
 This project was created as a homework assignment for the **WBS CODING SCHOOL Full-Stack Software Development course**.
+You can check it live: https://imobin.github.io/Cars/
 
 ## 📚 Project Objective
 
